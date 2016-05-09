@@ -8,7 +8,7 @@ $(document).ready(function () {
     });
 
     $('.colorContainer').on('click', '.colorChange', function () {
-      $(this).parent().parent().parent().toggleClass('diffColor');
+      $(this).parent().parent().toggleClass('diffColor');
     });
   });
 
